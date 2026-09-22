@@ -1,23 +1,35 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(../static/font/Roboto-Regular.ttf);
+}
+
 *{
-    margin: 0;
-    padding: 0;
+    padding: 0 auto;
+    margin: 0 auto;
+    font-family: "Roboto";
+    text-decoration: none;
 }
 
 .body00{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(248, 255, 188);
+    background-image: url(/img/fondo\ general/body.JPG);
+    background-size: cover;
 }
 
 .header00{
     width: 100%;
-    height: 100px;
+    height: 90px;
     background-color: rgb(43, 169, 85);
     display: flex;
     align-items: center;
+    background-image:url(/img/fondo\ general/fondo.JPG);
+    position: fixed;
 }
 
 .header00-div00{
-    width: 40%;
-    text-align: center;    
+    width: 30%;
+    text-align: center; 
+    position: absolute;
 }
 
 .header00-figure00{
@@ -56,23 +68,106 @@ nav input:checked ~ ul {
     display: block;
     position: absolute;
     right: 555%;
-    top: 150%;
+    top:110%;
    
 }
 
 nav li {
     width: 150%;
-    background-color:  rgb(43, 169, 85);
+    background-color:  rgb(77, 69, 125);
     padding-left: 30%;
     padding-right: 30%;
     padding-top: 10%;
     padding-bottom: 10%;
     margin: 20px 0;
     text-align: center;
+    border-radius: 10px;
 }
 
 nav a {
     text-decoration: none;
     font-size: 30px;
     color: white;
+}
+
+.label-paty{
+    color: azure;
+}
+
+/*  fin de menu paty   */
+
+
+.main00{
+    padding-top: 90px;
+}
+
+.main00-div00{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main00-div00{
+    background-color: rgba(79, 221, 79, 0.804);
+}
+
+.main00-h200{
+    color: white;
+}
+
+.section00{
+    width: 100%;
+    height: 700px;
+    background-color: rgba(0, 255, 255, 0.215);
+}
+
+/* box de producto */
+
+.section00{
+    padding-top: 5%;
+}
+
+.section00-div00{
+    padding-top: 5%;
+    width: 90%;
+    /*border: solid black 2px;*/
+    height: 60%;
+    background-color: rgba(127, 255, 212, 0.254);
+    border-radius: 20px;
+}
+
+.div-titulo-articulo{
+    width: 90%;
+    height: 7%;
+    border-bottom-left-radius: 15px;
+    border-left: solid white 5px;
+    border-bottom: solid white 5px;
+}
+
+.div-titulo-articulo h3{
+    padding-left: 5%;
+    padding-top: 1%;
+}
+
+.div-img00{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.div-img00 img{
+    margin-top: 5%;
+    width: 90%;
+    border: solid white 5px;
+    border-radius: 50px;
+}
+
+.div-code00{
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 5%;
 }
