@@ -221,12 +221,20 @@ nav a {
 .section-contacto{
     text-align: center;
     width: 100%;
+    margin-bottom: 30px;
 }
 
 .img-whatsapp{
     width: 60%;
 }
 
+.aa{
+    width: 70%;
+    color: aliceblue;
+    padding: 5px;
+    background-color: rgba(11, 185, 86, 0.841);
+    border-radius: 10px;
+}
 
 /*  FOOTER    */
 
