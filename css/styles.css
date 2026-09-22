@@ -22,7 +22,7 @@
     background-color: rgb(43, 169, 85);
     display: flex;
     align-items: center;
-    background-image:url("img/fondo-general/Fondo.jpg");
+    background-image:url("../img/fondo-general/Fondo.jpg");
     position: fixed;
 }
 
